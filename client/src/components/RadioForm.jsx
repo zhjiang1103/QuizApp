@@ -19,7 +19,7 @@ function RadioForm(props) {
 
   return (
     <div>
-      <h1>Quiz App</h1>
+      <h2>Let's start a quiz game!</h2>
       <p>Please select a difficulty level</p>
       <form onSubmit={handleClick}>
         <label>
