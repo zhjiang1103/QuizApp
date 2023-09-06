@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
       q: req.query.difficulty,
       units: "imperial",
     });
-    const url=`https://opentdb.com/api.php?amount=4&category=9&${params}`
+    const url=`https://opentdb.com/api.php?amount=5&category=9&${params}&type=multiple`
     console.log(url);
     fetch(url)
       .then((res) => res.json())
