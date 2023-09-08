@@ -20,7 +20,7 @@ const QuestionCard=(props)=>{
 
 let answerOptions = [];
 if (props.data) {
-  // Combine incorrect and correct answers into one array
+  // Combine incorrect and correct answers into one array using spread operator
   answerOptions = [
     ...props.data[currentQuestion].incorrect_answers,
     props.data[currentQuestion].correct_answer,
