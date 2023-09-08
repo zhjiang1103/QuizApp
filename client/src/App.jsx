@@ -47,7 +47,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div style={{backgroundColor:"Grey"}}>
         <h1>Hi</h1>
         <Header user={user} />
         <UserForm grabUser={handleUser} />
