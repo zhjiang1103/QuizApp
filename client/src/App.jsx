@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
-import './App.css';
+
 import './index.css';
+import './App.css';
 import UserForm from './components/User';
 import Header from './components/Header';
 import RadioForm from './components/RadioForm';
